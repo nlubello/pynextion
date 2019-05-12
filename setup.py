@@ -10,15 +10,14 @@ def read(fname):
 
 setup(
     name = "pynextion",
-    version = "0.0.1",
+    version = "0.0.2",
     author = "Raffaele Montella",
     author_email = "raffaele.montella@uniparthenope.it",
-    description = ("An demonstration of how to create, document, and publish "
-                                   "to the cheese shop a5 pypi.org."),
+    description = ("Python librari to drive Nextion display "),
     license = "Apache 2.0",
-    keywords = "example documentation tutorial",
-    url = "http://packages.python.org/pynextion",
-    packages=['pynextion', 'signalk','tests'],
+    keywords = "nextion python",
+    url = "http://packages.python.org/nl-pynextion",
+    packages=['pynextion' ,'tests'],
     long_description=read('README.md'),
     classifiers=[
         "Development Status :: 3 - Alpha",
